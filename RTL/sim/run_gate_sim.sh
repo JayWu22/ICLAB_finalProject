@@ -1,0 +1,1 @@
+vcs -R +v2k -full64 -f gate_sim.f -debug_acc -l vcs_gate.log

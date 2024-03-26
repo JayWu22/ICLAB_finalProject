@@ -1,0 +1,2 @@
+testbench分為tester和feeder，feeder根據busy在busy=0的時候會輸入test_pattern，tester在valid=1的時候測試result和golden。feeder和tester都是在negedge clk時操作。
+pre_sim.f用來做前期rtl測試，gate_sim.f用來測試合成後的結果。
